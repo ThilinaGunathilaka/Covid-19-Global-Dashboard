@@ -1,6 +1,6 @@
 # 🌍 COVID-19 Global Dashboard
 
-A data science project that visualizes and analyzes the global impact of COVID-19 using real-time data from [Our World in Data](https://ourworldindata.org/coronavirus). The dashboard is built with Streamlit and includes interactive charts, forecasting using Prophet, and global maps with Plotly.
+A data science project that visualizes and analyzes the global impact of COVID-19 using real-time data from [OWID COVID-19 Data](https://github.com/owid/covid-19-data/tree/master/public/data). The dashboard is built with Streamlit and includes interactive charts, forecasting using Prophet, and global maps with Plotly.
 
 ---
 
@@ -50,8 +50,10 @@ Run the Streamlit app
 ```bash
 streamlit run app.py
 ```
-📁 Project Structure
+---
 
+## 📁 Project Structure
+```
 covid-global-dashboard/
 │
 ├── data/
@@ -69,15 +71,19 @@ covid-global-dashboard/
 │
 ├── requirements.txt
 └── README.md
+```
+---
 
-📊 Data Source
+## 📊 Data Source
 - 📥 [OWID COVID-19 Data](https://github.com/owid/covid-19-data/tree/master/public/data)  
   - Raw: `data/raw/owid-covid-data.csv`  
   - Cleaned: `data/processed/preprocessed_data.csv`
 
 This dataset is updated daily and includes global COVID-19 cases, deaths, testing, vaccinations, and policy responses.
 
-📈 Learning Goals
+---
+
+## 📈 Learning Goals
 This project was created to:
 
 - Practice real-world data cleaning and analysis
